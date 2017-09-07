@@ -1,0 +1,44 @@
+.header {
+  background-color: black;
+  height: 40px;
+  color: white; }
+  .header p {
+    margin-top: 6px; }
+  .header ul li {
+    display: inline-block;
+    float: right;
+    padding: 7px;
+    border-right: 1px solid #444444; }
+    .header ul li select {
+      background: transparent;
+      border: none;
+      font-size: 14px;
+      height: 29px;
+      padding: 5px;
+      width: 70px;
+      color: white; }
+  .header ul li:last-of-type {
+    border-left: 1px solid #444444;
+    padding: 5px; }
+
+.navbar {
+  background-color: white;
+  height: 150px; }
+  .navbar input {
+    font-family: 'FontAwesome'; }
+  .navbar .inputbasket {
+    border-top: none;
+    background-color: #fafafa; }
+  .navbar #navbarSupportedContent ul {
+    margin-right: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px; }
+    .navbar #navbarSupportedContent ul a {
+      color: black !important; }
+  .navbar .brand {
+    font-size: 34px;
+    color: black;
+    font-weight: 800; }
+  .navbar .changecolor {
+    color: #ffa687; }
