@@ -61,3 +61,34 @@ $color: #fff;
       color: $primary-color;
     }
 }
+
+//Carousel
+.carousel {
+  margin:0 auto;
+  height: 100%;
+  min-height: 100%;
+
+}
+
+.myslides{
+  min-height: 300px;
+  padding: 50px;
+  height: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  &.sld1 {
+   background-image: url("img/carousel1.gif");
+   height: 75vh;
+
+
+ }
+ &.sld2 {
+   background-image: url('img/carousel2.gif');
+    height: 75vh;
+ }
+ &.sld3 {
+   background-image: url('img/carousel3.gif');
+    height: 75vh;
+ }
+}
