@@ -3,7 +3,8 @@ $(document).ready(function(){
 
         dots: true,
         speed: 500,
-        lazyLoad: 'progressive'
+        lazyLoad: 'progressive',
+        arrows: true
 
       });
     });

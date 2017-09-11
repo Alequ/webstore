@@ -1,5 +1,5 @@
 $primary-color: #ffa687;
-$color: #fff;
+$secondary-color: #78645d;
 
 
 //First Black Nav
@@ -80,15 +80,54 @@ $color: #fff;
   &.sld1 {
    background-image: url("img/carousel1.gif");
    height: 75vh;
+ }
+   &.sld2 {
+     background-image: url('img/carousel2.gif');
+      height: 75vh;
+   }
+   &.sld3 {
+     background-image: url('img/carousel3.gif');
+      height: 75vh;
+   }
+   .crazy{
+     font-size:30px;
+     color:$secondary-color;
+     font-family: 'Kaushan Script', cursive;
+   }
+   .crazy::before,
+   .crazy::after{
+     display: inline-block;
+    content: "";
+    border-top: .1rem solid $secondary-color;
+    width: 6rem;
+    margin: 0 1rem;
+    transform: translateY(-9px);
 
+   }
+   .crazyseason{
+        font-family: 'Anton', sans-serif;
+        font-size: 100px;
+       color:#ab6b55;
 
- }
- &.sld2 {
-   background-image: url('img/carousel2.gif');
-    height: 75vh;
- }
- &.sld3 {
-   background-image: url('img/carousel3.gif');
-    height: 75vh;
- }
+      }
+    hr{
+      width: 30%;
+      height: 6px;
+      background-color:$secondary-color;
+      color:$secondary-color;
+      border: 0 none;
+      margin-top: 5px;
+      margin-bottom:5px;
+      float:left;
+      text-align: left;
+    };
+    hr:nth-child(1){
+      color: red !important;
+    }
+}
+
+.grayNav{
+  height:10vh;
+  background-color: #ededed;
+  
 }

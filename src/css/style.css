@@ -64,3 +64,35 @@
   .myslides.sld3 {
     background-image: url("img/carousel3.gif");
     height: 75vh; }
+  .myslides .crazy {
+    font-size: 30px;
+    color: #78645d;
+    font-family: 'Kaushan Script', cursive; }
+  .myslides .crazy::before,
+  .myslides .crazy::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.1rem solid #78645d;
+    width: 6rem;
+    margin: 0 1rem;
+    transform: translateY(-9px); }
+  .myslides .crazyseason {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: #ab6b55; }
+  .myslides hr {
+    width: 30%;
+    height: 6px;
+    background-color: #78645d;
+    color: #78645d;
+    border: 0 none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    text-align: left; }
+  .myslides hr:nth-child(1) {
+    color: red !important; }
+
+.grayNav {
+  height: 10vh;
+  background-color: #ededed; }
