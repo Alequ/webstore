@@ -94,5 +94,144 @@
     color: red !important; }
 
 .grayNav {
-  height: 10vh;
+  height: 7vh;
   background-color: #ededed; }
+
+.input-group {
+  margin-top: 15px; }
+  .input-group .form-control {
+    margin-left: 10px; }
+  .input-group p {
+    position: relative;
+    top: 8px; }
+  .input-group input {
+    border: none; }
+  .input-group button {
+    border: none;
+    background-color: #ffa687;
+    color: white;
+    font-size: 20px;
+    border-bottom: 3px solid #dd6b44 !important; }
+  .input-group button:hover {
+    color: #dd6b44; }
+
+.findUs {
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end; }
+  .findUs * {
+    margin-top: 20px; }
+  .findUs i {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #6b6b6b; }
+
+/*  */
+.placeholder {
+  margin-top: 10vh;
+  min-height: 500px; }
+  .placeholder .first {
+    background-image: url("http://via.placeholder.com/480x340");
+    width: 480px;
+    height: 343px; }
+  .placeholder .second {
+    background-image: url("http://via.placeholder.com/480x170");
+    width: 480px;
+    height: 170px; }
+  .placeholder .third {
+    background-image: url("http://via.placeholder.com/240x170");
+    width: 240px;
+    height: 170px; }
+  .placeholder .forth {
+    background-image: url("http://via.placeholder.com/240x170");
+    width: 240px;
+    height: 170px; }
+  .placeholder .row {
+    padding: 1px; }
+
+/* */
+/* equal card height */
+.row-equal > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto; }
+
+.card {
+  max-width: 220px;
+  margin-left: 50px; }
+
+/* ensure equal card height inside carousel */
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+  display: flex; }
+
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow: hidden; }
+
+.carousel2 {
+  background-color: #ffa687;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .carousel2 p {
+    text-align: center; }
+  .carousel2 button {
+    border: none;
+    background-color: #ffa687;
+    color: white;
+    font-size: 16px;
+    border-bottom: 3px solid #dd6b44 !important; }
+    .carousel2 button span {
+      font-weight: 800; }
+  .carousel2 button:hover {
+    color: #dd6b44; }
+
+.carouselBtns a {
+  border: none;
+  font-size: 24px;
+  border-radius: 0 !important; }
+
+.carouselBtns a:hover {
+  background-color: #ffa687;
+  color: white; }
+
+.clearanceSection {
+  margin-top: 5vh; }
+  .clearanceSection .clearance::before,
+  .clearanceSection .clearance::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #78645d;
+    width: 30vh;
+    margin: 0 1rem;
+    transform: translateY(-9px); }
+  .clearanceSection .card {
+    max-width: 220px;
+    margin-left: 50px; }
+  .clearanceSection button {
+    border: none;
+    background-color: #ffa687;
+    color: white;
+    font-size: 16px;
+    border-bottom: 3px solid #dd6b44 !important; }
+    .clearanceSection button span {
+      font-weight: 800; }
+  .clearanceSection button:hover {
+    color: #dd6b44; }
+
+.brands {
+  margin-top: 5vh;
+  border-bottom: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  padding-bottom: 15px; }
+  .brands .title {
+    position: relative;
+    bottom: 14px;
+    background-color: white;
+    width: fit-content;
+    left: 45%; }
+
+.about {
+  margin-top: 10vh; }
