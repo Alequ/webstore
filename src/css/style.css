@@ -79,8 +79,8 @@
     transform: translateY(-9px); }
   .myslides .women {
     color: #ffa6a2;
-    font-size: 26px;
-    font-weight: 500; }
+    font-size: 32px;
+    font-weight: 700; }
   .myslides .crazyseason {
     font-family: 'Anton', sans-serif;
     font-size: 100px;
@@ -139,21 +139,46 @@
   margin-top: 10vh;
   min-height: 500px; }
   .placeholder .first {
-    background-image: url("http://via.placeholder.com/480x340");
+    background-image: url("./img/fashion1.png");
+    background-size: cover;
     width: 480px;
     height: 343px; }
+    .placeholder .first .pstyle1 {
+      color: white;
+      float: right;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600; }
   .placeholder .second {
-    background-image: url("http://via.placeholder.com/480x170");
+    background-image: url("./img/fashion2.png");
+    background-size: cover;
     width: 480px;
     height: 170px; }
+    .placeholder .second .pstyle2 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      float: left;
+      font-weight: 600; }
   .placeholder .third {
-    background-image: url("http://via.placeholder.com/240x170");
+    background-image: url("./img/fashion3.png");
+    background-size: cover;
     width: 240px;
     height: 170px; }
+    .placeholder .third .pstyle3 {
+      color: #0d0711;
+      font-size: 28px;
+      font-weight: 700; }
   .placeholder .forth {
-    background-image: url("http://via.placeholder.com/240x170");
+    background-image: url("./img/fashion4.png");
+    background-size: cover;
     width: 240px;
     height: 170px; }
+    .placeholder .forth .pstyle4 {
+      color: white;
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 4px; }
   .placeholder .row {
     padding: 1px; }
 
@@ -241,7 +266,7 @@
     left: 45%; }
 
 .about {
-  margin-top: 10vh; }
+  margin-top: 7vh; }
 
 .payment {
   background-color: #f7f7f7;
