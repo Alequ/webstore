@@ -24,6 +24,7 @@
 
   <body>
 
+
     <!--Header -->
       <header>
         <div class="container-fluid header">
@@ -49,40 +50,46 @@
       </header>
 
       <!--NavBar -->
-      <nav class="navbar navbar-toggleable-md  container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand brand" href="#">L<span class="brand changecolor">OO</span>K</a>
+      <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light ">
+          <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand brand" href="#">L<span class="brand changecolor">OO</span>K</a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">New <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Designer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Women</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Men</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Clearance</a>
-            </li>
-          </ul>
-          <form class=" my-2 my-lg-0">
-            <select class="form-control">
-              <option>Your Cart</option>
-            </select>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">New <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Designer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clearance</a>
+              </li>
+            </ul>
+            <form class=" my-2 my-lg-0">
+              <select class="form-control">
+                <option>Your Cart</option>
+              </select>
 
-            <input class="form-control mr-sm-2 inputbasket" type="text" placeholder="&#62096                     0 Items | 0$">
+              <input class="form-control mr-sm-2 inputbasket" type="text" placeholder="&#62096 0 Items | 0$">
 
-          </form>
-        </div>
-      </nav>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+
+
+
 
       <section id="carousel1">
         <div class="container-fluid carouselContainer">
@@ -154,11 +161,11 @@
               </div>
 
               <div class="row ">
-                <div class="col-md-6 third text-center">
+                <div class="col-md-6 col-sm-3 third text-center">
                   <p class="pstyle3">Fall <br> Leather</p>
                   <button type="button" class="btn btn-primary btn-sm ">Shop Now</button>
                 </div>
-                <div class="col-md-6 forth text-center">
+                <div class="col-md-6 col-sm-3 forth text-center">
                   <p class="pstyle4">Men's Collection</p>
                 </div>
               </div>
@@ -459,6 +466,10 @@
           </div>
           <!--/.footer-bottom-->
       </footer>
+
+
+
+
   <script src="src/js/vendor/slick.min.js"></script>
   <script src="src/js/slickInit.js"></script>
   <script src="src/js/carousel.js"></script>

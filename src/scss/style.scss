@@ -41,17 +41,7 @@ $secondary-color: #78645d;
       border-top: none;
       background-color: #fafafa
     }
-    #navbarSupportedContent {
-      ul {
-        margin-right: 30px;
-        margin-top: 15px;
-        text-decoration: none;
-        a{color:black !important;};
-        font-size:20px;
 
-      }
-
-    }
     .brand {
       font-size: 34px;
       color: black;
@@ -60,6 +50,24 @@ $secondary-color: #78645d;
     .changecolor {
       color: $primary-color;
     }
+    .show {
+      background-color: whitesmoke;
+    }
+}
+
+#navbarSupportedContent {
+  z-index: 2;
+
+  padding: 15px;
+  ul {
+    margin-right: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    a{color:black !important;};
+    font-size:20px;
+
+  }
+
 }
 
 //Carousel
@@ -78,15 +86,16 @@ $secondary-color: #78645d;
   background-size: cover;
   background-position: center;
   &.sld1 {
-   background-image: url("img/carousel1.gif");
+   background-image: url("img/carousel1.png");
+   background-size: cover;
    height: 75vh;
  }
    &.sld2 {
-     background-image: url('img/carousel2.gif');
+     background-image: url('img/carousel2.png');
       height: 75vh;
    }
    &.sld3 {
-     background-image: url('img/carousel3.gif');
+     background-image: url('img/carousel3.png');
       height: 75vh;
    }
    .crazy{

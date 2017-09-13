@@ -29,19 +29,25 @@
   .navbar .inputbasket {
     border-top: none;
     background-color: #fafafa; }
-  .navbar #navbarSupportedContent ul {
-    margin-right: 30px;
-    margin-top: 15px;
-    text-decoration: none;
-    font-size: 20px; }
-    .navbar #navbarSupportedContent ul a {
-      color: black !important; }
   .navbar .brand {
     font-size: 34px;
     color: black;
     font-weight: 800; }
   .navbar .changecolor {
     color: #ffa687; }
+  .navbar .show {
+    background-color: whitesmoke; }
+
+#navbarSupportedContent {
+  z-index: 2;
+  padding: 15px; }
+  #navbarSupportedContent ul {
+    margin-right: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px; }
+    #navbarSupportedContent ul a {
+      color: black !important; }
 
 .carousel {
   margin: 0 auto;
@@ -56,13 +62,14 @@
   background-size: cover;
   background-position: center; }
   .myslides.sld1 {
-    background-image: url("img/carousel1.gif");
+    background-image: url("img/carousel1.png");
+    background-size: cover;
     height: 75vh; }
   .myslides.sld2 {
-    background-image: url("img/carousel2.gif");
+    background-image: url("img/carousel2.png");
     height: 75vh; }
   .myslides.sld3 {
-    background-image: url("img/carousel3.gif");
+    background-image: url("img/carousel3.png");
     height: 75vh; }
   .myslides .crazy {
     font-size: 30px;

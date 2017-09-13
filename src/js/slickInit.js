@@ -4,7 +4,8 @@ $(document).ready(function(){
         dots: true,
         speed: 500,
         lazyLoad: 'progressive',
-        arrows: true
+        arrows: true,
+        
 
       });
     });
