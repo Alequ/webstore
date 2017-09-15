@@ -4,6 +4,17 @@ $secondary-color: #78645d;
 
 //Header
 .header {
+  @media only screen and (max-width: 800px) {
+  .helpLine {
+      display: none;
+  }
+  ul li{
+    margin-top: 3px;
+    font-size:12px;
+    border: none !important;
+  }
+}
+
   p{
     margin-top: 6px;
   }
@@ -66,6 +77,11 @@ $secondary-color: #78645d;
     .show {
       background-color: whitesmoke;
     }
+      @media only screen and (max-width: 500px) {
+      .brand {
+          font-size:26px;
+      }
+  }
 }
 
 #navbarSupportedContent {
@@ -156,7 +172,24 @@ $secondary-color: #78645d;
     hr:nth-child(1){
       color: red !important;
     }
+
+    @media only screen and (max-width: 500px) {
+      .crazy {
+          display: none;
+      }
+      .crazyseason {
+        font-size: 50px;
+        margin-top: 30vh;
+
+      }
+      .women{
+        font-size: 30px;
+      }
+    }
+
 }
+
+
 
 
 //Gray Navbar

@@ -2,6 +2,13 @@
   background-color: black;
   height: 40px;
   color: white; }
+  @media only screen and (max-width: 800px) {
+    .header .helpLine {
+      display: none; }
+    .header ul li {
+      margin-top: 3px;
+      font-size: 12px;
+      border: none !important; } }
   .header p {
     margin-top: 6px; }
   .header ul li {
@@ -48,6 +55,9 @@
     color: #ffa687; }
   .navbar .show {
     background-color: whitesmoke; }
+  @media only screen and (max-width: 500px) {
+    .navbar .brand {
+      font-size: 26px; } }
 
 #navbarSupportedContent {
   z-index: 2;
@@ -117,6 +127,14 @@
     text-align: left; }
   .myslides hr:nth-child(1) {
     color: red !important; }
+  @media only screen and (max-width: 500px) {
+    .myslides .crazy {
+      display: none; }
+    .myslides .crazyseason {
+      font-size: 50px;
+      margin-top: 30vh; }
+    .myslides .women {
+      font-size: 30px; } }
 
 .grayNav {
   height: 7vh;
