@@ -36,11 +36,11 @@
                 <div class="col-md-6">
                   <ul>
                     <li><i class="fa fa-search" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-user-o" aria-hidden="true"></i> My Account</li>
+                    <li><i class="fa fa-user" aria-hidden="true"></i> My Account</li>
                     <li><select name="curency" >
                       <option value="USD" selected="selected">$ US</option>
-                    	<option value="EUR">Euro</option>
-                    	<option value="GBP">United Kingdom Pounds</option>
+                    	<option value="EUR">€ Euro</option>
+                    	<option value="GBP">£ Pound Sterling</option>
                     </select></li>
                   </ul>
                 </div>
@@ -51,11 +51,11 @@
 
       <!--NavBar -->
       <div class="container">
-        <nav class="navbar navbar-toggleable-md navbar-light ">
+        <nav class="navbar navbar-toggleable-md navbar-light " data-toggle="sticky-onscroll">
           <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand brand" href="#">L<span class="brand changecolor">OO</span>K</a>
+          <a class="navbar-brand brand" href="#">Crazy<span class="brand changecolor">LOOK</span></a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -79,9 +79,7 @@
               <select class="form-control">
                 <option>Your Cart</option>
               </select>
-
               <input class="form-control mr-sm-2 inputbasket" type="text" placeholder="&#62096 0 Items | 0$">
-
             </form>
           </div>
         </nav>
@@ -89,7 +87,7 @@
 
 
 
-
+<!--First Page Slides -->
 
       <section id="carousel1">
         <div class="container-fluid carouselContainer">
@@ -121,13 +119,12 @@
       </div>
     </section>
 
-
+    <!--Call to action Nav -->
 
       <section class="grayNav">
         <div class="container">
           <div class="row">
             <div class="col-md-6 d-inline-block">
-
               <div class="input-group">
                 <p >Stay Updated</p>
                 <input type="text" class="form-control col-md-4" placeholder="Your email adress">
@@ -147,26 +144,62 @@
         </div>
       </section>
 
+<!--Grid Images with Hoover Effect -->
       <section>
-        <div class="container placeholder">
-            <div class="row ">
-              <div class="col-md-6 first" >
-                <p class="pstyle1">Best Outfit <br> & <br> Looks</p>
-              </div>
-            <div class="col-md-6">
-              <div class="row ">
-                <div class="col-md-12 second">
-                  <p class="pstyle2">Summer<br> Collection</p>
+        <div class="container gridPics">
+            <div class="row no-gutters ">
+              <div class="col-md-6 no-gutters" >
+                <div class="grid">
+          					<figure class="effect-apollo">
+          						<img src="src/css/img/fashion1.png" alt="img18"/>
+          						<figcaption>
+          							<h2>Best <span>Outfits & Looks</span></h2>
+          							<p>Find Out More</p>
+          							<a href="#">View more</a>
+          						</figcaption>
+          					</figure>
+          				</div>
+                </div>
+            <div class="col-md-6 no-gutters">
+              <div class="row  no-gutters">
+                <div class="col-md-12 second no-gutters">
+                  <div class="grid">
+                      <figure class="effect-apollo" style="margin-bottom:0">
+                        <img src="src/css/img/fashion2.png" alt="img18"/>
+                        <figcaption>
+                          <h2>Summer <span>Collection</span></h2>
+                          <p>Find Out More</p>
+                          <a href="#">View more</a>
+                        </figcaption>
+                      </figure>
+                    </div>
                 </div>
               </div>
 
-              <div class="row ">
-                <div class="col-md-6 col-sm-3 third text-center">
-                  <p class="pstyle3">Fall <br> Leather</p>
-                  <button type="button" class="btn btn-primary btn-sm ">Shop Now</button>
+              <div class="row no-gutters ">
+                <div class="col-md-6 col-sm-3 third text-center no-gutters">
+                  <div class="grid">
+            					<figure class="effect-apollo">
+            						<img src="src/css/img/fashion3.png" alt="img18"/>
+            						<figcaption>
+            							<h2>Fall <span>Leather</span></h2>
+            							<p>Find Out More</p>
+            							<a href="#">View more</a>
+            						</figcaption>
+            					</figure>
+            				</div>
                 </div>
-                <div class="col-md-6 col-sm-3 forth text-center">
-                  <p class="pstyle4">Men's Collection</p>
+                <div class="col-md-6 col-sm-3 forth text-center no-gutters">
+                  <div class="grid">
+            					<figure class="effect-apollo">
+            						<img src="src/css/img/fashion4.png" alt="img18"/>
+            						<figcaption>
+            							<h2>Men's <span>Special</span></h2>
+            							<p>Find Out More</p>
+            							<a href="#">View more</a>
+            						</figcaption>
+            					</figure>
+            				</div>
                 </div>
               </div>
             </div>
@@ -175,6 +208,7 @@
       </section>
 
 
+<!--Item's carousel -->
       <section class="carouselBtns" >
           <div class="container">
               <div class="row">
@@ -268,6 +302,9 @@
                 </div>
       </section>
 
+
+      <!--Clearance -->
+
       <section class="clearanceSection">
         <div class="container">
           <div class="row">
@@ -330,6 +367,7 @@
       </section>
 
 
+  <!--Brands -->
       <section class="brands">
         <div class="container">
           <div class="row ">
@@ -362,6 +400,8 @@
       </section>
 
 
+  <!--About -->
+
       <section class="about">
         <div class="container">
           <div class="row">
@@ -372,6 +412,9 @@
           </div>
         </div>
       </section>
+
+
+      <!--Payment -->
 
 
       <section class="payment">
@@ -391,6 +434,9 @@
           </div>
         </div>
       </section>
+
+
+      <!--Footer -->
 
       <footer>
           <div class="footer" id="footer">
@@ -452,11 +498,11 @@
                           </ul>
                       </div>
                   </div>
-                  <!--/.row-->
+
               </div>
-              <!--/.container-->
+
           </div>
-          <!--/.footer-->
+
 
           <div class="footer-bottom">
               <div class="container">
@@ -464,15 +510,17 @@
 
               </div>
           </div>
-          <!--/.footer-bottom-->
+
       </footer>
 
 
 
+<!--Scripts -->
 
   <script src="src/js/vendor/slick.min.js"></script>
   <script src="src/js/slickInit.js"></script>
-  <script src="src/js/carousel.js"></script>
+  <script src="src/js/main.js"></script>
+
 
   </body>
 

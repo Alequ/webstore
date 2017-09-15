@@ -17,9 +17,20 @@
       padding: 5px;
       width: 70px;
       color: white; }
+    .header ul li option {
+      color: black; }
   .header ul li:last-of-type {
     border-left: 1px solid #444444;
     padding: 5px; }
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 85px; }
 
 .navbar {
   background-color: white;
@@ -140,56 +151,113 @@
     font-size: 30px;
     margin-left: 20px;
     color: #6b6b6b; }
+  .findUs i:hover {
+    color: #ffa687; }
 
-/*  */
-.placeholder {
+/*Grid Images with Hoover Effect  */
+.gridPics {
   margin-top: 10vh;
-  min-height: 500px; }
-  .placeholder .first {
-    background-image: url("./img/fashion1.png");
-    background-size: cover;
-    width: 480px;
-    height: 343px; }
-    .placeholder .first .pstyle1 {
-      color: white;
-      float: right;
-      text-align: center;
-      font-size: 30px;
-      font-weight: 600; }
-  .placeholder .second {
-    background-image: url("./img/fashion2.png");
-    background-size: cover;
-    width: 480px;
-    height: 170px; }
-    .placeholder .second .pstyle2 {
-      color: white;
-      font-size: 30px;
-      text-align: center;
-      float: left;
-      font-weight: 600; }
-  .placeholder .third {
-    background-image: url("./img/fashion3.png");
-    background-size: cover;
-    width: 240px;
-    height: 170px; }
-    .placeholder .third .pstyle3 {
-      color: #0d0711;
-      font-size: 28px;
-      font-weight: 700; }
-  .placeholder .forth {
-    background-image: url("./img/fashion4.png");
-    background-size: cover;
-    width: 240px;
-    height: 170px; }
-    .placeholder .forth .pstyle4 {
-      color: white;
-      font-size: 30px;
-      font-weight: 600;
-      margin-top: 4px; }
-  .placeholder .row {
+  min-height: 500px;
+  /*Figure with Hover Effect */
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */ }
+  .gridPics .row {
     padding: 1px; }
+  .gridPics .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+    cursor: pointer; }
+  .gridPics .grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8; }
+  .gridPics .grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .gridPics .grid figure figcaption::before,
+  .gridPics .grid figure figcaption::after {
+    pointer-events: none; }
+  .gridPics .grid figure figcaption,
+  .gridPics .grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .gridPics .grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0; }
+  .gridPics .grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300; }
+  .gridPics .grid figure h2 span {
+    font-weight: 800; }
+  .gridPics .grid figure h2,
+  .gridPics .grid figure p {
+    margin: 0; }
+  .gridPics .grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%; }
+  .gridPics figure.effect-apollo {
+    background: #ffa687; }
+  .gridPics figure.effect-apollo img {
+    opacity: 0.95;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1); }
+  .gridPics figure.effect-apollo figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    content: '';
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0); }
+  .gridPics figure.effect-apollo p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 3em;
+    padding: 0 1em;
+    max-width: 150px;
+    border-right: 4px solid #fff;
+    text-align: right;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s; }
+  .gridPics figure.effect-apollo h2 {
+    text-align: left; }
+  .gridPics figure.effect-apollo:hover img {
+    opacity: 0.6;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  .gridPics figure.effect-apollo:hover figcaption::before {
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0); }
+  .gridPics figure.effect-apollo:hover p {
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
 
-/* */
+/*Product carousel */
 /* equal card height */
 .row-equal > div[class*='col-'] {
   display: flex;
@@ -236,8 +304,10 @@
   background-color: #ffa687;
   color: white; }
 
+/*Clearance section */
 .clearanceSection {
-  margin-top: 5vh; }
+  margin-top: 5vh;
+  /*Brands */ }
   .clearanceSection .clearance::before,
   .clearanceSection .clearance::after {
     display: inline-block;
@@ -272,9 +342,11 @@
     width: fit-content;
     left: 45%; }
 
+/*About */
 .about {
   margin-top: 7vh; }
 
+/*payment */
 .payment {
   background-color: #f7f7f7;
   padding-top: 15px;
