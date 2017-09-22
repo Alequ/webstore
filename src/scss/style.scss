@@ -5,13 +5,17 @@ $secondary-color: #78645d;
 //Header
 .header {
   @media only screen and (max-width: 800px) {
+
   .helpLine {
       display: none;
   }
   ul li{
-    margin-top: 3px;
-    font-size:12px;
-    border: none !important;
+
+    font-size:13px;
+  }
+  ul{
+    padding:0;
+    text-align: center;
   }
 }
 
@@ -21,11 +25,16 @@ $secondary-color: #78645d;
   background-color: black;
   height: 40px;
   color:white;
+    ul{
+      text-align: right;
+    }
+
     ul li {
-          display:inline-block;
-      float: right;
-      padding: 7px;
+      display:inline-block;
+      padding-right:7px;
+
       border-right: 1px solid #444444;
+      line-height:40px;
       select {
         background: transparent;
        border: none;
@@ -39,13 +48,15 @@ $secondary-color: #78645d;
         color: black;
       }
     }
-    ul li:last-of-type {
-      border-left: 1px solid #444444;
-      padding:5px;
- }
+
 }
 
 //Navbar
+@media only screen and (min-width: 500px) {
+  .phoneform{
+    display:none;
+  }
+}
 
 .sticky.is-sticky {
   position: fixed;
@@ -59,7 +70,8 @@ $secondary-color: #78645d;
 
 .navbar{
   background-color: white;
-  height:150px;
+
+
   input { font-family: 'FontAwesome'; }
     .inputbasket {
       border-top: none;
@@ -75,33 +87,52 @@ $secondary-color: #78645d;
       color: $primary-color;
     }
     .show {
-      background-color: whitesmoke;
+      background-color: #ededed;
     }
       @media only screen and (max-width: 500px) {
       .brand {
           font-size:26px;
       }
+      form{
+        display:none;
+      }
   }
 }
 
 #navbarSupportedContent {
-  z-index: 2;
-
+  z-index: 222;
   padding: 15px;
   ul {
     margin-right: 30px;
     margin-top: 15px;
+    font-weight: 600;
     text-decoration: none;
-    a{color:black !important;};
+    a{color:black;
+      border-radius:8%;
+     };
     font-size:20px;
+    a:hover{
+      background-color:$primary-color;
 
+    }
   }
+
+
 
 }
 
 
 
 //First Carousel
+@media only screen and (max-width: 500px) {
+  #carousel1 {
+    display:none;
+  }
+}
+.no-padding{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
 .carousel {
   margin:0 auto;
   height: 100%;
@@ -152,12 +183,13 @@ $secondary-color: #78645d;
    }
    .crazyseason{
         font-family: 'Anton', sans-serif;
-        font-size: 100px;
-       color:#ab6b55;
+        font-size: 80px;
+         color:#ab6b55;
       span{
         border-bottom: 4px solid $secondary-color;
+        }
       }
-      }
+
     hr{
       width: 30%;
       height: 6px;
@@ -174,6 +206,7 @@ $secondary-color: #78645d;
     }
 
     @media only screen and (max-width: 500px) {
+
       .crazy {
           display: none;
       }
@@ -496,13 +529,20 @@ $secondary-color: #78645d;
 
   }
 
-  /*Brands */
  }
+
+   /*Brands */
+
+
 .brands{
   margin-top: 5vh;
   border-bottom: 1px solid #d8d8d8;
   border-top: 1px solid #d8d8d8;
   padding-bottom: 15px;
+  @media only screen and (max-width: 500px) {
+    width: 90%;
+  }
+
   .title{
     position: relative;
     bottom: 14px;
