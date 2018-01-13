@@ -17,9 +17,11 @@
   .header ul li {
     display: inline-block;
     padding-right: 7px;
+    cursor: pointer;
     border-right: 1px solid #444444;
     line-height: 40px; }
     .header ul li select {
+      cursor: pointer;
       background: transparent;
       border: none;
       font-size: 14px;
@@ -99,6 +101,16 @@
   min-height: 100%;
   background-size: cover;
   background-position: center; }
+  .myslides button {
+    border: none;
+    background-color: #ffa687;
+    color: white;
+    font-size: 16px;
+    border-bottom: 3px solid #dd6b44 !important;
+    cursor: pointer;
+    width: 260px; }
+  .myslides button:hover {
+    color: #dd6b44; }
   .myslides.sld1 {
     background-image: url("img/carousel1.png");
     background-size: cover;
@@ -109,41 +121,14 @@
   .myslides.sld3 {
     background-image: url("img/carousel3.png");
     height: 75vh; }
-  .myslides .crazy {
-    font-size: 30px;
-    color: #78645d;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 800; }
-  .myslides .crazy::before,
-  .myslides .crazy::after {
-    display: inline-block;
-    content: "";
-    border-top: 0.1rem solid #78645d;
-    width: 6rem;
-    margin: 0 1rem;
-    transform: translateY(-9px); }
-  .myslides .women {
-    color: #ffa6a2;
-    font-size: 32px;
-    font-weight: 700; }
   .myslides .crazyseason {
-    font-family: 'Anton', sans-serif;
-    font-size: 80px;
-    color: #ab6b55; }
+    font-family: 'Brandon_blk', sans-serif;
+    font-size: 30px;
+    color: #FEFEFD; }
     .myslides .crazyseason span {
-      border-bottom: 4px solid #78645d; }
-  .myslides hr {
-    width: 30%;
-    height: 6px;
-    background-color: #78645d;
-    color: #78645d;
-    border: 0 none;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    float: left;
-    text-align: left; }
-  .myslides hr:nth-child(1) {
-    color: red !important; }
+      font-size: 48px;
+      color: #A1176E;
+      font-weight: 1000; }
   @media only screen and (max-width: 500px) {
     .myslides .crazy {
       display: none; }
@@ -181,7 +166,8 @@
   -webkit-justify-content: flex-end;
   justify-content: flex-end; }
   .findUs * {
-    margin-top: 20px; }
+    margin-top: 20px;
+    cursor: pointer; }
   .findUs i {
     font-size: 30px;
     margin-left: 20px;
@@ -333,7 +319,8 @@
 .carouselBtns a {
   border: none;
   font-size: 24px;
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+  cursor: pointer; }
 
 .carouselBtns a:hover {
   background-color: #ffa687;

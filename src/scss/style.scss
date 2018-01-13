@@ -32,10 +32,11 @@ $secondary-color: #78645d;
     ul li {
       display:inline-block;
       padding-right:7px;
-
+      cursor:pointer;
       border-right: 1px solid #444444;
       line-height:40px;
       select {
+        cursor:pointer;
         background: transparent;
        border: none;
        font-size: 14px;
@@ -147,6 +148,21 @@ $secondary-color: #78645d;
   min-height: 100%;
   background-size: cover;
   background-position: center;
+
+  button{
+    border:none;
+    background-color: $primary-color;
+    color:white;
+    font-size:16px;
+    border-bottom: 3px solid #dd6b44 !important;
+    cursor: pointer;
+    width:260px;
+
+    }
+  button:hover{
+    color: #dd6b44;
+
+  }
   &.sld1 {
    background-image: url("img/carousel1.png");
    background-size: cover;
@@ -160,50 +176,21 @@ $secondary-color: #78645d;
      background-image: url('img/carousel3.png');
       height: 75vh;
    }
-   .crazy{
-     font-size:30px;
-     color:$secondary-color;
-     font-family: 'Kaushan Script', cursive;
-     font-weight:800;
-   }
-   .crazy::before,
-   .crazy::after{
-     display: inline-block;
-    content: "";
-    border-top: .1rem solid $secondary-color;
-    width: 6rem;
-    margin: 0 1rem;
-    transform: translateY(-9px);
 
-   }
-   .women{
-     color: #ffa6a2;
-    font-size: 32px;
-    font-weight: 700;
-   }
+
    .crazyseason{
-        font-family: 'Anton', sans-serif;
-        font-size: 80px;
-         color:#ab6b55;
-      span{
-        border-bottom: 4px solid $secondary-color;
+        font-family: 'Brandon_blk', sans-serif;
+        font-size: 30px;
+        color: #FEFEFD;
+
+        span{
+          font-size: 48px;
+          color:#A1176E;
+          font-weight: 1000;
         }
       }
 
-    hr{
-      width: 30%;
-      height: 6px;
-      background-color:$secondary-color;
-      color:$secondary-color;
-      border: 0 none;
-      margin-top: 5px;
-      margin-bottom:5px;
-      float:left;
-      text-align: left;
-    };
-    hr:nth-child(1){
-      color: red !important;
-    }
+
 
     @media only screen and (max-width: 500px) {
 
@@ -266,6 +253,7 @@ $secondary-color: #78645d;
 
    *{
      margin-top: 20px;
+     cursor: pointer;
    }
    i{
      font-size: 30px;
@@ -484,6 +472,7 @@ $secondary-color: #78645d;
     border:none;
     font-size: 24px;
     border-radius: 0 !important;
+    cursor : pointer;
   }
   a:hover{
     background-color:$primary-color;

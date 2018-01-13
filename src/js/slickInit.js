@@ -10,10 +10,9 @@ $(document).ready(function(){
 
  // Second Carousel init
       $('.row-equal').slick({
-        slidesToShow: 5,
+        slidesToShow: 6,
         nextArrow: $(".nextButton"),
         prevArrow: $(".prevButton"),
-        infinite: true,
         doots:false,
         responsive: [
           {
