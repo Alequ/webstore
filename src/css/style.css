@@ -109,7 +109,8 @@
     border-bottom: 3px solid #dd6b44 !important;
     cursor: pointer;
     width: 260px;
-    margin-top: 80px; }
+    margin-top: 80px;
+    font-weight: 600; }
   .myslides button:hover {
     color: #dd6b44; }
   .myslides.sld1 {
@@ -117,23 +118,24 @@
     background-size: cover;
     height: 75vh; }
   .myslides.sld2 {
-    background-image: url("img/carousel2.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("img/carousel2.png");
     height: 75vh; }
   .myslides.sld3 {
-    background-image: url("img/carousel3.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("img/carousel3.png");
     height: 75vh; }
   .myslides .crazyseason {
     font-family: 'Brandon_bld_0', sans-serif;
     font-size: 30px;
     color: #FEFEFD;
     font-weight: 600; }
-    .myslides .crazyseason span {
-      font-size: 48px;
-      color: #A1176E;
-      font-weight: 1000; }
   .myslides .callToAction {
     margin: 0 auto;
     padding-top: 22vh; }
+    .myslides .callToAction h3 {
+      color: #ffffff;
+      font-size: 60px;
+      font-weight: 800;
+      letter-spacing: 6px; }
   @media only screen and (max-width: 500px) {
     .myslides .crazy {
       display: none; }
