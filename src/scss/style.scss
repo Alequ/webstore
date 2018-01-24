@@ -276,7 +276,11 @@ $secondary-color: #78645d;
 
 
 /*Grid Images with Hoover Effect  */
+@media only screen and (min-width: 400px) {
+
+}
 .gridPics{
+
   margin-top:10vh;
   min-height: 500px;
   .row {
@@ -418,8 +422,6 @@ $secondary-color: #78645d;
   	transition-delay: 0.1s;
   }
 
-
-
 }
 
 /*Product carousel */
@@ -452,6 +454,9 @@ $secondary-color: #78645d;
 }
 
 .carousel2 {
+  .card-block{
+    text-align: center;
+  }
   background-color: $primary-color;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -490,6 +495,7 @@ $secondary-color: #78645d;
   };
 
 }
+
 
 
 /*Clearance section */

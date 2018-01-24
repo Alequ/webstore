@@ -310,6 +310,8 @@
   background-color: #ffa687;
   padding-top: 30px;
   padding-bottom: 30px; }
+  .carousel2 .card-block {
+    text-align: center; }
   .carousel2 p {
     text-align: center; }
   .carousel2 button {
