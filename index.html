@@ -27,20 +27,26 @@
 
     <!--Header -->
       <header>
-        <div class="container-fluid header">
+        <div class="container-fluid ">
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-sm-6 helpLine">
                   <p>Costumer Care: 07891239412</p>
               </div>
                 <div class="col-md-6 col-sm-6" >
-                  <ul >
-                    <li><select name="curency" >
-                      <option value="USD" selected="selected">$ US</option>
-                    	<option value="EUR">€ Euro</option>
-                    	<option value="GBP">£ Pound Sterling</option>
-                    </select></li>
-                    <li><img src="src/css/img/user.png" alt=""> My Account</li>
+                  <ul class="accountBar">
+                    <li style="display: inline-block;">
+                      <div id="dd" class="wrapper-dropdown-3" tabindex="1">
+                        <span>$ USD</span>
+                        <ul class="dropdown">
+                          <li><a href="#"><i class="icon-envelope icon-large"></i>€ EUR</a></li>
+                          <li><a href="#"><i class="icon-truck icon-large"></i>£ GBP</a></li>
+                          <li><a href="#"><i class="icon-truck icon-large"></i>$ USD</a></li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li><img src="src/css/img/user.png" alt="">MY ACCOUNT</li>
                     <li><img src="src\css\img\search.png" alt="search"></li>
 
                   </ul>
@@ -77,6 +83,7 @@
                 <a class="nav-link" href="#">Clearance <img src="src/css/img/right-arrow.png" alt="more arrow"></a>
               </li>
             </ul>
+
             <form class=" my-2 my-lg-0">
               <select class="form-control">
                 <option>Your Cart</option>
@@ -87,11 +94,6 @@
             </form>
           </div>
         </nav>
-        <form class="phoneform my-2 my-lg-0">
-
-          <input class="form-control mr-sm-2 inputbasket" type="text" placeholder="&#128722; 0 Items | 0$">
-        </form>
-
       </div><!--End of Navbar-->
 
 
@@ -101,6 +103,7 @@
       <section id="carousel1">
         <div class="container-fluid carouselContainer no-padding">
           <div class="carousel">
+
             <div class="sld1 myslides">
               <div class="container">
                 <div class="col-md-12 text-center callToAction">
@@ -109,7 +112,7 @@
                 <button class="btn btn-secondary" type="button">Shop Now</button>
               </div>
             </div>
-          </div>
+          </div><!-- end slide 1-->
 
           <div class="sld2 myslides">
             <div class="container">
@@ -121,7 +124,7 @@
 
               </div>
             </div>
-          </div>
+          </div><!--end slide 2-->
 
           <div class="sld3 myslides">
             <div class="col-md-12 text-center callToAction">
@@ -132,9 +135,9 @@
 
             </div>
 
-          </div>
-        </div>
-      </div>
+          </div><!-- end slide 3-->
+        </div><!--End Carousel-->
+      </div><!-- end container carousel-->
     </section><!--End First Slider -->
 
     <!--Call to action Nav -->
@@ -337,6 +340,7 @@
                    <div class="card-img-top card-img-top-250">
                        <img class="img-fluid" src="src/css/img/pic1.jpg" alt="Carousel 1">
                    </div>
+               
                    <div class="card-block p-t-2">
                        <p>Feel Tank</p>
                        <p>$69.99</p>
@@ -533,11 +537,17 @@
 
 
 
+
+
+
+
+
 <!--Scripts -->
 
   <script src="src/js/vendor/slick.min.js"></script>
   <script src="src/js/slickInit.js"></script>
   <script src="src/js/main.js"></script>
+  <script src="src/js/dropdown.js"></script>
 
 
   </body>
