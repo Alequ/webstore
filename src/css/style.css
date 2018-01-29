@@ -373,7 +373,7 @@ header {
   flex: 1 0 auto; }
 
 .card {
-  max-width: 220px;
+  width: 200px !important;
   margin-left: 50px; }
 
 /* ensure equal card height inside carousel */
@@ -415,6 +415,13 @@ header {
 .carouselBtns a:hover {
   background-color: #ffa687;
   color: white; }
+
+.shopAction {
+  position: absolute;
+  z-index: 9999;
+  bottom: 228px;
+  left: 30px;
+  background-color: rgba(255, 255, 255, 0) !important; }
 
 /*Clearance section */
 .clearanceSection {

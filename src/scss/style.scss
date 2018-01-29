@@ -534,7 +534,7 @@ header {
 }
 
  .card {
-   max-width: 220px;
+   width: 200px !important;
    margin-left: 50px;
 }
 
@@ -590,6 +590,8 @@ header {
     border-radius: 0 !important;
     cursor : pointer;
   }
+
+
   a:hover{
     background-color:$primary-color;
     color:white;
@@ -597,7 +599,13 @@ header {
 
 }
 
-
+.shopAction {
+  position: absolute;
+  z-index: 9999;
+  bottom: 228px;
+  left: 30px;
+  background-color:rgba(255, 255, 255, 0) !important;
+}
 
 /*Clearance section */
 

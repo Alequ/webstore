@@ -41,12 +41,21 @@ function DropDown(el) {
 
     });
 
+let counter = 0;
+
+    $(".card").mouseenter(function()
+    {
+
+          if(counter<=0){
+          $( this ).append( `<a class="shopAction" href="#"> <img src="src/css/img/shopaction.png" alt="shop" /> </a>` );
+          counter++;
+        }
+      });
 
 
-    const card = document.querySelectorAll(".card");
-console.log(card)
-    function popUp(){
+    $(".card").mouseleave(function()
+    {
+      counter = 0;
+      $( ".shopAction" ).remove();
 
-    }
-
-    card.forEach(item => item.addEventListener('mouseover', popUp()))
+    });
