@@ -33,6 +33,7 @@ function DropDown(el) {
     $(function() {
 
       var dd = new DropDown( $('#dd') );
+      var dropdownSize = new DropDown( $('#dropdownSize') );
 
       $(document).click(function() {
         // all dropdowns
@@ -41,13 +42,17 @@ function DropDown(el) {
 
     });
 
+
+
+
+
 let counter = 0;
 
     $(".card").mouseenter(function()
     {
 
           if(counter<=0){
-          $( this ).append( `<a class="shopAction" href="#"> <img src="src/css/img/shopaction.png" alt="shop" /> </a>` );
+          $( this ).append( `<a class="shopAction" href="product.html"> <img src="src/css/img/shopaction.png" alt="shop" /> </a>` );
           counter++;
         }
       });

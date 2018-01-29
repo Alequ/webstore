@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>WebStore</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/vendor/slick.css">
+    <link rel="stylesheet" href="src/css/vendor/slick-theme.css">
+    <!--fonts -->
+    <link href="src\css\vendor\fonts\Brandon_blk.woff" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!--jQuey UI-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!--Teether -->
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <!--Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+
+    <!--Header -->
+      <header>
+        <div class="container-fluid ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 helpLine">
+                  <p>Costumer Care: 07891239412</p>
+              </div>
+                <div class="col-md-6 col-sm-6" >
+                  <ul class="accountBar">
+                    <li style="display: inline-block;">
+                      <div id="dd" class="wrapper-dropdown-3" tabindex="1">
+                        <span>$ USD</span>
+                        <ul class="dropdown">
+                          <li><a href="#"><i class="icon-envelope icon-large"></i>€ EUR</a></li>
+                          <li><a href="#"><i class="icon-truck icon-large"></i>£ GBP</a></li>
+                          <li><a href="#"><i class="icon-truck icon-large"></i>$ USD</a></li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li><img src="src/css/img/user.png" alt="">MY ACCOUNT</li>
+                    <li><img src="src\css\img\search.png" alt="search"></li>
+
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </header><!--End of Header -->
+
+
+      <!--NavBar -->
+      <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light " data-toggle="sticky-onscroll">
+          <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand brand" href="#">Crazy<span class="brand changecolor">LOOK</span></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">New <img src="src/css/img/right-arrow.png" alt="more arrow"><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Designer <img src="src/css/img/right-arrow.png" alt="more arrow"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women <img src="src/css/img/right-arrow.png" alt="more arrow"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Men <img src="src/css/img/right-arrow.png" alt="more arrow"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clearance <img src="src/css/img/right-arrow.png" alt="more arrow"></a>
+              </li>
+            </ul>
+
+            <form class=" my-2 my-lg-0">
+              <select class="form-control">
+                <option>Your Cart</option>
+                <option>Item1</option>
+                <option>Item2</option>
+              </select>
+              <input class="form-control mr-sm-2 inputbasket" type="text" placeholder="&#62096; 0 Items | 0$">
+            </form>
+          </div>
+        </nav>
+      </div><!--End of Navbar-->
+
+<!-- Products navbar -->
+    <section>
+      <div class="container">
+        <div class="row productsNavRow">
+          <div id="productsNavbar">
+            <ul>
+              <li><img src="src\css\img\home_icon.png" alt="home icon"></li>
+              <li>Women</li>
+              <li>Clothing</li>
+              <li>Blouses & Shirt</li>
+              <li>B Young</li>
+              <li>Sofi Blouse</li>
+            </ul>
+          </div><!-- End products navbar-->
+        </div><!--productsNavRow-->
+
+        <div class="row productRow">
+          <div id="productImages" class="col-md-5">
+            <div class="row">
+              <div class="mainImage">
+                <img src="src\css\img\productimg.png" alt="product image">
+              </div>
+            </div>
+            <div class="row">
+              <div class="thubnailImages">
+                <ul>
+                  <li><img src="src\css\img\thumbnailproduct1.png" alt=""></li>
+                  <li><img src="src\css\img\thumbnailproduct2.png" alt=""></li>
+                  <li><img src="src\css\img\thumbnailproduct3.png" alt=""></li>
+                  <li><img src="src\css\img\thumbnailproduct4.png" alt=""></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- End product images-->
+
+          <div id="productDescription" class="col-md-7">
+            <div class="backButton">
+              <img src="src\css\img\left-arrow.png" alt="back arrow">
+              <p>Back to <span class="highlight">Women's Clothing</span></p>
+            </div>
+
+            <div class="descriptionProduct">
+              <h3>Sofi Blouse</h3>
+              <br>
+              <span>$98.96</span>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime deserunt magnam error a, accusantium labore commodi accusamus est iure fugit molestias, animi perferendis. Consequuntur autem accusamus exercitationem ex omnis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laborum rerum delectus vel odit voluptas beatae sapiente temporibus voluptatum minima, hic ratione dolores! Dicta facilis, debitis illum sequi, quia iure.</p>
+            </div>
+
+            <div class="dropdown-sizes-div">
+
+              <div id="dropdownSize" class="wrapper-dropdown-1 wrapper-dropdown-3" tabindex="1">
+                <span>Select Size</span>
+                <ul class="dropdown">
+                  <li><a href="#">XS</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#">M</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">XL</a></li>
+                </ul>
+              </div>
+
+              <div class="pickupColors">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+
+            </div><!--end dropdown sizes-->
+
+            <div id="product-buttons">
+              <button class="btn btn-secondary" type="button">+</button>
+              <div class="amount"><p>1</p></div>
+              <button class="btn btn-secondary" type="button">-</button>
+              <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+            </div>
+
+          </div><!--end product description-->
+        </div><!--End product row-->
+      </div><!-- end product container-->
+    </section>
+
+    <!-- Social media icons -->
+    <section>
+      <div class="container" id="socialMediaIcons">
+        <div class="row">
+          <div class="col-md-12">
+            <ul >
+              <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> <p>Share on Facebook</p> </li>
+              <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> <p>Tweet this product</p> </li>
+              <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> <p>Mail this product</p></li>
+              <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> <p>Pin this product</p> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- end section social media-->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="accordion">
+              <h3 class="color1">Description</h3>
+              <div>
+                <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                </p>
+              </div>
+              <h3 class="color2">Aditional Information</h3>
+              <div>
+                <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+                </p>
+              </div>
+              <h3 class="color3">Review (9)</h3>
+              <div>
+                <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                </p>
+                <ul>
+                  <li>List item one</li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                </ul>
+              </div>
+              <h3 class="color4">Helpfull Links</h3>
+              <div>
+                <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+                </p>
+                <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+                </p>
+              </div>
+              <h3 class="color5">Make a Gift</h3>
+              <div>
+                <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+                </p>
+                <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End accordion section -->
+
+    <section><!--Related products section-->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 ">
+            <h3 class="relatedProductsHeader">Related Products</h3>
+          </div>
+
+          <div id="relatedProducts">
+
+            <div class="card">
+                 <div class="card-img-top card-img-top-250">
+                     <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
+                 </div>
+                 <div class="card-block p-t-2">
+                     <p>Feel Tank</p>
+                     <p>$69.99</p>
+                     <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                 </div>
+             </div>
+
+             <div class="card">
+                  <div class="card-img-top card-img-top-250">
+                      <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
+                  </div>
+                  <div class="card-block p-t-2">
+                      <p>Feel Tank</p>
+                      <p>$69.99</p>
+                      <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                  </div>
+              </div>
+
+              <div class="card">
+                   <div class="card-img-top card-img-top-250">
+                       <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
+                   </div>
+                   <div class="card-block p-t-2">
+                       <p>Feel Tank</p>
+                       <p>$69.99</p>
+                       <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                   </div>
+               </div>
+
+               <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <p>Feel Tank</p>
+                        <p>$69.99</p>
+                        <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                    </div>
+                </div>
+
+          </div><!-- end relatedProducts -->
+        </div>
+      </div>
+    </section><!-- End related products section -->
+
+
+  <!--Brands -->
+      <section class="brands">
+        <div class="container">
+          <div class="row ">
+              <div class="col-md-12">
+              <p class="text-center title">Favourite Brands</p>
+            </div>
+          </div>
+          <div class="row" style="margin-top:-20px;">
+            <div class="col-md-2 col-sm-2">
+              <img src="src/css/img/ck.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2  col-sm-2">
+              <img src="src/css/img/dg.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2  col-sm-2">
+              <img src="src/css/img/ea.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2  col-sm-2">
+              <img src="src/css/img/gucci.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2  col-sm-2">
+              <img src="src/css/img/lozza.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2  col-sm-2">
+              <img src="src/css/img/prada.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+      </section><!--End Brands -->
+
+
+  <!--About -->
+
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="text-center">About LookShop</h4>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis aliquam accusamus corrupti excepturi placeat quaerat voluptate impedit animi. Omnis nisi odio sit totam autem velit aspernatur quia, quo dolor.</p>
+            </div>
+          </div>
+        </div>
+      </section><!--End about -->
+
+
+      <!--Payment -->
+
+
+      <section class="payment">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="d-inline-block">We Accept:</p>
+                <img src="src/css/img/visa-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src/css/img/skrill-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src/css/img/paypal-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src/css/img/mastercard-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src/css/img/maestro-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src/css/img/google_wallet-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src/css/img/ebay-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+                <img src="src//css/img/discover-Six_Revisions.png" class="img-fluid d-inline-block" alt="">
+            </div>
+          </div>
+        </div>
+      </section><!--End Payments -->
+
+
+      <!--Footer -->
+
+      <footer>
+          <div class="footer" id="footer">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                          <h3> Customer </h3>
+                              <li> <a href="#"> Contact </a> </li>
+                              <li> <a href="#"> FAQ </a> </li>
+                              <li> <a href="#"> Terms of payment </a> </li>
+                              <li> <a href="#"> Terms of Sale </a> </li>
+                              <li> <a href="#"> Delivery terms and conditions </a> </li>
+                              <li> <a href="#"> Returns and Refunds </a> </li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                          <h3> Information </h3>
+                          <ul>
+                              <li> <a href="#"> Afiliate </a> </li>
+                              <li> <a href="#"> Cockies </a> </li>
+                              <li> <a href="#"> How to Shop </a> </li>
+                              <li> <a href="#"> About </a> </li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                          <h3> Campaigns </h3>
+                          <ul>
+                              <li> <a href="#"> Evening dresses </a> </li>
+                              <li> <a href="#"> Makeup </a> </li>
+                              <li> <a href="#"> Fashion forward </a> </li>
+                              <li> <a href="#"> Special Ocassion Dresses </a> </li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                          <h3> Stores </h3>
+                          <ul>
+                              <li> <a href="#"> Paris </a> </li>
+                              <li> <a href="#"> New York </a> </li>
+                              <li> <a href="#"> London </a> </li>
+                              <li> <a href="#"> Madrid </a> </li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                          <h3> Social </h3>
+                          <ul>
+                              <li>
+                                  <div class="input-append newsletter-box text-center">
+                                      <input type="text" class="full text-center" placeholder="Email ">
+                                      <button class="btn  bg-gray" type="button"> Email Us <i class="fa fa-long-arrow-right"> </i> </button>
+                                  </div>
+                              </li>
+                          </ul>
+                          <ul class="social">
+                              <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                              <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                          </ul>
+                      </div>
+                  </div>
+
+              </div>
+
+          </div>
+
+
+          <div class="footer-bottom">
+              <div class="container">
+                  <p class="pull-left"> Copyright © 2017. All right reserved. </p>
+
+              </div>
+          </div>
+
+      </footer><!--End footer-->
+
+
+
+
+
+
+
+
+<!--Scripts -->
+
+  <script src="src/js/vendor/slick.min.js"></script>
+  <script src="src/js/slickInit.js"></script>
+  <script src="src/js/main.js"></script>
+  <script src="src/js/dropdown.js"></script>
+
+
+  </body>
+
+
+</html>

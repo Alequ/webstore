@@ -29,3 +29,12 @@ $(document).ready(function() {
     stickyToggle(sticky, stickyWrapper, $(window));
   });
 });
+
+//Accordion init
+
+$( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true,
+      active: false
+    });
+  } );
