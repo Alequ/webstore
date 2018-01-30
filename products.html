@@ -13,6 +13,9 @@
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
+    <!--jQuey UI-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <!--Teether -->
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <!--Bootstrap -->
@@ -96,172 +99,154 @@
         </nav>
       </div><!--End of Navbar-->
 
+<!-- Products navbar -->
+    <section>
+      <div class="container">
+        <div class="row productsNavRow">
+          <div id="productsNavbar">
+            <ul>
+              <li><img src="src\css\img\home_icon.png" alt="home icon"></li>
+              <li>Women</li>
+              <li>Clothes</li>
+            </ul>
+          </div><!-- End products navbar-->
+        </div><!--productsNavRow-->
+      </section>
 
+        <!--Products slider -->
 
-<!--First Page Slides -->
-
-      <section id="carousel1">
-        <div class="container-fluid carouselContainer no-padding">
-          <div class="carousel">
-
-            <div class="sld1 myslides">
-              <div class="container">
-                <div class="col-md-12 text-center callToAction">
-                <p class="crazyseason">Crazy</p>
-                 <h3>Autumn Collection</h3>
-                <a href="products.html"><button class="btn btn-secondary" type="button">Shop Now</button></a>
-              </div>
-            </div>
-          </div><!-- end slide 1-->
-
-          <div class="sld2 myslides">
-            <div class="container">
-              <div class="col-md-12 text-center callToAction">
-
-                <p class="crazyseason">Crazy</p>
-                <h3>Summer Clearance</h3>
-                <a href="products.html"><button class="btn btn-secondary" type="button">Shop Now</button></a>
-
-              </div>
-            </div>
-          </div><!--end slide 2-->
-
-          <div class="sld3 myslides">
-            <div class="col-md-12 text-center callToAction">
-
-              <p class="crazyseason">Crazy</p>
-              <h3>Men's Outfit</h3>
-              <a href="products.html"><button class="btn btn-secondary" type="button">Shop Now</button></a>
-
-            </div>
-
-          </div><!-- end slide 3-->
-        </div><!--End Carousel-->
-      </div><!-- end container carousel-->
-    </section><!--End First Slider -->
-
-    <!--Call to action Nav -->
-
-      <section class="grayNav">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 d-inline-block">
-              <div class="input-group">
-                <p >Stay Updated</p>
-                <input type="text" class="form-control col-md-4" placeholder="Your email adress">
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">+</button>
-                </span>
-              </div>
-            </div>
-
-            <div class="col-md-6 findUs">
-              <p>Find us here:</p>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-      </section><!--End gray Navbar-->
-
-<!--Grid Images with Hoover Effect -->
-      <section>
-        <div class="container gridPics">
-            <div class="row no-gutters ">
-              <div class="col-md-6 no-gutters" >
-                <div class="grid">
-          					<figure class="effect-apollo">
-          						<img src="src/css/img/fashion1.png" alt="img18" />
-          						<figcaption>
-          							<h2>Best <span>Outfits & Looks</span></h2>
-          							<p>Find Out More</p>
-          							<a href="products.html">View more</a>
-          						</figcaption>
-          					</figure>
-          				</div>
-                </div>
-            <div class="col-md-6 no-gutters">
-              <div class="row  no-gutters">
-                <div class="col-md-12 second no-gutters">
-                  <div class="grid">
-                      <figure class="effect-apollo" style="margin-bottom:0">
-                        <img src="src/css/img/fashion2.png" alt="img18"/>
-                        <figcaption>
-                          <h2>Summer <span>Collection</span></h2>
-                          <p>Find Out More</p>
-                          <a href="products.html">View more</a>
-                        </figcaption>
-                      </figure>
-                    </div>
-                </div>
-              </div>
-
-              <div class="row no-gutters ">
-                <div class="col-md-6 col-sm-3 third text-center no-gutters">
-                  <div class="grid">
-            					<figure class="effect-apollo">
-            						<img src="src/css/img/fashion3.png" alt="img18"/>
-            						<figcaption>
-            							<h2>Fall <span>Leather</span></h2>
-            							<p>Find Out More</p>
-            							<a href="products.html">View more</a>
-            						</figcaption>
-            					</figure>
-            				</div>
-                </div>
-                <div class="col-md-6 col-sm-3 forth text-center no-gutters">
-                  <div class="grid">
-            					<figure class="effect-apollo">
-            						<img src="src/css/img/fashion4.png" alt="img18"/>
-            						<figcaption>
-            							<h2>Men's <span>Special</span></h2>
-            							<p>Find Out More</p>
-            							<a href="products.html">View more</a>
-            						</figcaption>
-            					</figure>
-            				</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section><!--End GRid Image-->
-
-
-<!--Item's carousel -->
-      <section class="carouselBtns" >
+        <section>
           <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <a class="btn btn-outline-secondary current-btn" >What's Hot</a>
-                  <a class="btn btn-outline-secondary" >Designers</a>
-                  <a class="btn btn-outline-secondary " >Featured</a>
-                  <a class="btn btn-outline-secondary " >Latest</a>
+            <div class="row">
+              <div id="productsCarousel">
+                <div class="slides">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="src\css\img\carousel4.png" alt="carousel image">
+                    </div>
 
-                </div>
-                  <div class="col-md-6 text-md-right lead float-right">
-                      <a class="btn btn-outline-secondary prevButton" ><i class="fa fa-lg fa-chevron-left"></i></a>
-                      <a class="btn btn-outline-secondary nextButton" ><i class="fa fa-lg fa-chevron-right"></i></a>
-                  </div>
-              </div>
-          </div>
+                    <div class="col-md-5">
+                      <h4>Open Heart Top</h4>
+                      <br>
+                      <p class="price">$14.95</p>
+                      <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum vel ducimus tempore officia libero quos quis expedita impedit provident temporibus error, ipsam, veniam, eveniet laborum deserunt. Ullam, pariatur, commodi.</p>
+                      <br>
+                      <button class="btn btn-secondary">ADD TO CART +</button>
+                    </div>
+                  </div><!--end slides row-->
+                </div><!--end slides-->
+                <div class="slides">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="src\css\img\carousel4.png" alt="carousel image">
+                    </div>
 
-          <div class="container-fluid carousel2">
-            <div class="row-equal">
+                    <div class="col-md-5">
+                      <h4>Open Heart Top</h4>
+                      <br>
+                      <p class="price">$14.95</p>
+                      <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum vel ducimus tempore officia libero quos quis expedita impedit provident temporibus error, ipsam, veniam, eveniet laborum deserunt. Ullam, pariatur, commodi.</p>
+                      <br>
+                      <button class="btn btn-secondary">ADD TO CART +</button>
+                    </div>
+                  </div><!--end slides row-->
+                </div><!--end slides-->
+                <div class="slides">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="src\css\img\carousel4.png" alt="carousel image">
+                    </div>
+
+                    <div class="col-md-5">
+                      <h4>Open Heart Top</h4>
+                      <br>
+                      <p class="price">$14.95</p>
+                      <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum vel ducimus tempore officia libero quos quis expedita impedit provident temporibus error, ipsam, veniam, eveniet laborum deserunt. Ullam, pariatur, commodi.</p>
+                      <br>
+                      <button class="btn btn-secondary">ADD TO CART +</button>
+                    </div>
+                  </div><!--end slides row-->
+                </div><!--end slides-->
+                <div class="slides">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="src\css\img\carousel4.png" alt="carousel image">
+                    </div>
+
+                    <div class="col-md-5">
+                      <h4>Open Heart Top</h4>
+                      <br>
+                      <p class="price">$14.95</p>
+                      <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam eum vel ducimus tempore officia libero quos quis expedita impedit provident temporibus error, ipsam, veniam, eveniet laborum deserunt. Ullam, pariatur, commodi.</p>
+                      <br>
+                      <button class="btn btn-secondary">ADD TO CART +</button>
+                    </div>
+                  </div><!--end slides row-->
+                </div><!--end slides-->
+              </div><!-- end products carousell-->
+            </div><!-- end row-->
+          </div><!-- end container-->
+        </section><!-- end section -->
+
+        <!--Products display section -->
+
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9" id="leftContent">
+                <div class="row productsSort">
+                  <div class="col-md-6 ">
+                    <p>Sort By</p>
+                    <div id="dropdownSorting" class="wrapper-dropdown-3" tabindex="1">
+                      <span>Date</span>
+                      <ul class="dropdown">
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">Rating</a></li>
+                        <li><a href="#">Size</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col-md-6 productsPagination">
+                      <p>Showing 1-12 of 342 results</p>
+                      <span>1</span>
+                      <span>2</span>
+                      <span>3</span>
+                      <span>></span>
+                    </div>
+
+                </div><!-- end product sort row-->
+
+                <div class="row productsDisplayed">
+                  <div class="col-md-12">
+                    <div class="card">
+                         <div class="card-img-top card-img-top-250">
+                             <img class="img-fluid" src="src/css/img/pic1.jpg" alt="Carousel 1">
+                         </div>
+                         <div class="card-block p-t-2">
+                           <p>Feel Tank</p>
+                           <p>$69.99</p>
+                           <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                         </div>
+                     </div>
+
                      <div class="card">
                           <div class="card-img-top card-img-top-250">
-                              <img class="img-fluid" src="src/css/img/pic1.jpg" alt="Carousel 1">
+                              <img class="img-fluid" src="src/css/img/pic2.jpg" alt="Carousel 1">
                           </div>
                           <div class="card-block p-t-2">
-                              <p>Feel Tank</p>
-                              <p>$69.99</p>
-                              <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                            <p>Feel Tank</p>
+                            <p>$69.99</p>
+                            <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                           </div>
                       </div>
+
                       <div class="card">
                            <div class="card-img-top card-img-top-250">
-                               <img class="img-fluid" src="src/css/img/pic2.jpg" alt="Carousel 1">
+                               <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
                            </div>
                            <div class="card-block p-t-2">
                              <p>Feel Tank</p>
@@ -269,9 +254,10 @@
                              <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                            </div>
                        </div>
+
                        <div class="card">
                             <div class="card-img-top card-img-top-250">
-                                <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
+                                <img class="img-fluid" src="src/css/img/pic4.jpg" alt="Carousel 1">
                             </div>
                             <div class="card-block p-t-2">
                               <p>Feel Tank</p>
@@ -279,9 +265,10 @@
                               <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                             </div>
                         </div>
+
                         <div class="card">
                              <div class="card-img-top card-img-top-250">
-                                 <img class="img-fluid" src="src/css/img/pic4.jpg" alt="Carousel 1">
+                                 <img class="img-fluid" src="src/css/img/pic5.png" alt="Carousel 1">
                              </div>
                              <div class="card-block p-t-2">
                                <p>Feel Tank</p>
@@ -289,9 +276,10 @@
                                <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                              </div>
                          </div>
+
                          <div class="card">
                               <div class="card-img-top card-img-top-250">
-                                  <img class="img-fluid" src="src/css/img/pic5.png" alt="Carousel 1">
+                                  <img class="img-fluid" src="src/css/img/pic6.png" alt="Carousel 1">
                               </div>
                               <div class="card-block p-t-2">
                                 <p>Feel Tank</p>
@@ -299,9 +287,10 @@
                                 <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                               </div>
                           </div>
+
                           <div class="card">
                                <div class="card-img-top card-img-top-250">
-                                   <img class="img-fluid" src="src/css/img/pic6.png" alt="Carousel 1">
+                                   <img class="img-fluid" src="src/css/img/pic7.png" alt="Carousel 1">
                                </div>
                                <div class="card-block p-t-2">
                                  <p>Feel Tank</p>
@@ -309,9 +298,10 @@
                                  <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                                </div>
                            </div>
+
                            <div class="card">
                                 <div class="card-img-top card-img-top-250">
-                                    <img class="img-fluid" src="src/css/img/pic7.png" alt="Carousel 1">
+                                    <img class="img-fluid" src="src/css/img/pic8.png" alt="Carousel 1">
                                 </div>
                                 <div class="card-block p-t-2">
                                   <p>Feel Tank</p>
@@ -319,74 +309,172 @@
                                   <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
                                 </div>
                             </div>
+
+                            <div class="card">
+                                 <div class="card-img-top card-img-top-250">
+                                     <img class="img-fluid" src="src/css/img/pic9.png" alt="Carousel 1">
+                                 </div>
+                                 <div class="card-block p-t-2">
+                                   <p>Feel Tank</p>
+                                   <p>$69.99</p>
+                                   <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
+                                 </div>
+                             </div>
+
+                  </div><!-- end column-->
+                </div><!-- end products displayed-->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="col-md-6 productsPagination float-right">
+                      <p>Showing 1-12 of 342 results</p>
+                      <span>1</span>
+                      <span>2</span>
+                      <span>3</span>
+                      <span>></span>
                     </div>
+                  </div>
                 </div>
-      </section><!--End of Item's carousell-->
+              </div><!-- end left-content-->
 
+              <div class="col-md-3" id="rightContent">
+                <div class="row ">
+                  <div class="col-md-12">
+                    <p class = "title">Categories</p>
+                    <div id="accordion1">
+                      <h3 class="color">New</h3>
+                      <div>
+                        <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                        </p>
+                      </div>
+                      <h3 class="color">Designers</h3>
+                      <div>
+                        <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                        </p>
+                      </div>
+                      <h3 class="color">Women's</h3>
+                      <div>
 
-      <!--Clearance -->
+                        <ul>
+                          <li>Clothes</li>
+                          <li>Shoes</li>
+                          <li>Jewlery</li>
+                        </ul>
+                      </div>
+                      <h3 class="color">Men</h3>
+                      <div>
+                        <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                        </p>
+                        <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                        </p>
+                      </div>
+                      <h3 class="color">Clearance</h3>
+                      <div>
+                        <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                        </p>
+                        <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                        </p>
+                      </div>
+                    </div><!-- end accordion -->
+                  </div>
+                </div><!-- end categories row-->
 
-      <section class="clearanceSection">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-            <a  class="clearance"><img src="src/css/img/clearance.png" class="img-fluid" alt=""></a>
-            </div>
-          </div>
+                <div class="row">
+                  <div class="col-md-12 sliderPrice">
+                    <div id="slider-range"></div>
+                    <p>
+                      <label for="amount">Price range:</label>
+                      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                    </p>
+                  </div>
+                </div>
 
-          <div class="row" style="margin-top:20px;">
-            <div class="col-md-3">
-              <div class="card">
-                   <div class="card-img-top card-img-top-250">
-                       <img class="img-fluid" src="src/css/img/pic1.jpg" alt="Carousel 1">
-                   </div>
+                <div class="row">
+                  <div class="col-md-12 sizeSelect">
+                    <p>SELECT YOUR SIZE:</p>
+                    <ul>
+                      <li>XS</li>
+                      <li class="selected">S</li>
+                      <li>M</li>
+                      <li>L</li>
+                      <li>XL</li>
+                    </ul>
+                  </div>
+                </div>
 
-                   <div class="card-block p-t-2">
-                       <p>Feel Tank</p>
-                       <p>$69.99</p>
-                       <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
-                   </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                   <div class="card-img-top card-img-top-250">
-                       <img class="img-fluid" src="src/css/img/pic2.jpg" alt="Carousel 1">
-                   </div>
-                   <div class="card-block p-t-2">
-                       <p>Feel Tank</p>
-                       <p>$69.99</p>
-                       <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
-                   </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                   <div class="card-img-top card-img-top-250">
-                       <img class="img-fluid" src="src/css/img/pic3.jpg" alt="Carousel 1">
-                   </div>
-                   <div class="card-block p-t-2">
-                       <p>Feel Tank</p>
-                       <p>$69.99</p>
-                       <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
-                   </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                   <div class="card-img-top card-img-top-250">
-                       <img class="img-fluid" src="src/css/img/pic4.jpg" alt="Carousel 1">
-                   </div>
-                   <div class="card-block p-t-2">
-                       <p>Feel Tank</p>
-                       <p>$69.99</p>
-                       <button class="btn btn-secondary" type="button">ADD TO CART <span>+</span></button>
-                   </div>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section><!--End of clearance section-->
+                <div class="row promotionRight">
+                  <div class="col-md-12">
+                    <p class = "title">ON SALE</p>
+                    <ul>
+                      <li>
+                        <img src="src\css\img\sale1.png" alt="sale image">
+                        <p>PINTUCK TANK</p>
+                        <p class="price">$59.99</p>
+                      </li>
+                      <li>
+                          <img src="src\css\img\sale2.png" alt="sale image">
+                          <p>PINTUCK TANK</p>
+                          <p class="price">$59.99</p>
+                      </li>
+                      <li>
+                          <img src="src\css\img\sale3.png" alt="sale image">
+                          <p>PINTUCK TANK</p>
+                          <p class="price">$59.99</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row promotionRight">
+                  <div class="col-md-12">
+                    <p class = "title">FEATURED PRODUCTS</p>
+                    <ul>
+                      <li>
+                        <img src="src\css\img\sale1.png" alt="sale image">
+                        <p>PINTUCK TANK</p>
+                        <p class="price">$59.99</p>
+                      </li>
+                      <li>
+                          <img src="src\css\img\sale2.png" alt="sale image">
+                          <p>PINTUCK TANK</p>
+                          <p class="price">$59.99</p>
+                      </li>
+                      <li>
+                          <img src="src\css\img\sale3.png" alt="sale image">
+                          <p>PINTUCK TANK</p>
+                          <p class="price">$59.99</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div><!--right content-->
+
+            </div><!--- end row--->
+          </div><!--end container-->
+        </section><!---end display section-->
+
 
 
   <!--Brands -->

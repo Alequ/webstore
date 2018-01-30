@@ -34,6 +34,7 @@ function DropDown(el) {
 
       var dd = new DropDown( $('#dd') );
       var dropdownSize = new DropDown( $('#dropdownSize') );
+      var dropdownSorting = new DropDown( $('#dropdownSorting') );
 
       $(document).click(function() {
         // all dropdowns
